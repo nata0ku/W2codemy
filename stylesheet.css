@@ -1,0 +1,309 @@
+.title {
+  color: #272727
+  ;
+  font-size: 36px;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #3498db;
+}
+
+li{
+  list-style:none ;
+}
+
+
+header {
+  background-color: #04244b;
+  color:#eaeced;
+  height: 90px;
+
+  
+}
+
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+}
+
+
+
+
+
+.mission {
+  font-size: 20px;
+}
+.main{
+  padding:10px  50px ;
+  background-color: white;
+  color:#272727;
+  background-size:cover;
+}
+
+
+
+.aboutUsText {
+
+  text-align: left;
+  padding-bottom:300px;
+  padding-top:30px;
+  padding-left:50px;
+  background-color:#272727;
+  color:white;
+}
+.aboutUsText h5 {
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity:0.8;
+}
+
+
+.aboutUsImage {
+  text-align: right;
+  position:absolute;
+  top:800px;
+  left:540px;
+  padding-top:50px;
+}
+
+
+
+
+.fa {
+  margin-right:5px;
+}
+.contents {
+  height:1100px;
+  opacity:0.8;
+
+}
+.contents-item{
+  float:left;
+  padding:10px;
+  text-align:center;
+  width:23%;
+  box-sizing:content-box;
+  position:relative;
+
+
+}
+
+.contents-item h5 {
+  font-weight: lighter;
+  line-height:1em;
+  letter-spacing:-1px;
+  margin-bottom:10px;
+  color:#272727;
+  opacity:0.9;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.section-title {
+  border-bottom:2px solid #272727;
+  font-size:28px;
+  padding-bottom: 15px;
+  margin-bottom:50px;
+}
+
+
+.copy-container h1{
+  font-size:140px;
+  line-height:160px;
+  letter-spacing:-9px;
+  display:inline-block;
+}
+.copy-container h2{
+  width:100%;
+  margin: auto;
+  opacity:0.9;
+  font-size:45px;
+  letter-spacing:5px;
+
+}
+
+
+.copy-container {
+  text-align:center;
+  padding:110px;
+}
+.copy-container p{
+
+  opacity:0.7;
+  font-size:20px;
+  letter-spacing:5px;
+}
+.courseBotton {
+  background-color:#4f4f4f;
+  box-shadow:0px 7px #282828;
+  padding:15px 40px;
+}
+.message {
+  background-color:#073d80;
+  padding:50px 50px;
+  box-shadow:0px 7px #072a55;
+  width: 100px; height: 20px;
+  text-size-adjust: 90px;
+  text-align:center;
+  height:60px;
+  line-height:60px;
+  font-size:25px;
+
+}
+
+.aboutusB {
+  background-color:#617288;
+  padding:15px 40px;
+  box-shadow:0px 7px #4c596a;
+  width: 150px; height: 30px;
+  text-size-adjust: 90px;
+  text-align:center;
+  height:60px;
+  line-height:60px;
+  font-size:25px;
+
+}
+
+.heading h3{
+  font-weight:normal;
+}
+
+.message-wrapper {
+  border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+
+
+footer{
+  background-color: #272727;
+  height: 300px;
+  color: #eaeced;
+  padding:40px;
+}
+
+.footer-logo{
+  float:left;
+  font-size: 32px;
+  padding:10px;
+}
+
+.footer-list{
+  float:right;
+}
+
+.footer-list li{
+  padding:7px;
+  color:white;
+  display: flex;
+
+}
+
+.footer-list li:hover {
+  color: #3498db;
+}
+
+
+
+.btn {
+  padding:7px;
+  color:white;
+  display:inline-block;
+  opacity:0.9;
+  border-radius:10px;
+  text-decoration:none;
+}
+
+
+
+
+
+.btn:hover {
+  opacity:1;
+}
+
+.btn:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  padding-left:13px;
+}
+
+.twitter {
+  background-color:#55acee;
+  padding-left:10px;
+}
+
+.instagram {
+  background-color:#DD2A7B;
+  padding-left:11px;
+}
+.youtube {
+  background-color:#C4302B;
+  color:white;
+  padding:6px;
+  padding-left:10px;
+}
+
+.contact-form {
+  padding-top:100px;
+  
+}
+
+input.textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+
+
+}
+
+.contact-submit{
+  background-color:#848484;
+  color:#272727
+  ;
+}
+
